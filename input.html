@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form action="input.html" method="post">
+        <fieldset>
+            <legend>Person data</legend>
+            <input name="Name" type="text" placeholder="Name">
+            <input name="LastName" type="text" placeholder="Surname">
+            <input name="Checkbox" type="checkbox">
+            <label for="CheckboxId">This is the checkbox </label>
+            <input name="Checkbox" type="checkbox" id="checkboxId">
+
+            <select name="favColor">
+                <option value="" disabled selected hidden>Choose your fav color</option>
+                <option value="B">Black</option>
+                <option>Orange</option>
+                <option>Red</option>
+            </select>
+        </fieldset>
+        <button type="submit" class="button-save">Save</button>
+        <button type="reset" style="color: cornsilk; background-color : red">Cancel</button>
+    </form>
+
+</body>
+
+<!-- <style>
+    body {
+        font-family: cursive;
+    }
+
+    .button-save {
+        color: cornsilk;
+        background-color: blueviolet
+    }
+</style> -->
+
+</html>
