@@ -1,0 +1,50 @@
+p{
+    overflow: hidden;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    float:left
+}
+
+.left{
+    float: left
+}
+
+.right {
+    float: right
+}
+
+ul{
+    list-style-type: none
+}
+
+li{
+    float: left;
+    margin: 3px;
+    padding: 6px;
+    line-height: 20px;
+    border-radius: 5px;
+    background-color: black
+}
+
+li a:any-link{
+    color: yellow
+}
+
+li a:visited{
+    color: green
+}
+
+li a:hover{
+    color: white
+}
+
+a:hover{
+    color: yellow
+}
+
+.outerClass{
+    color:
+}
