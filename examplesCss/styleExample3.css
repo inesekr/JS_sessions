@@ -45,6 +45,11 @@ a:hover{
     color: yellow
 }
 
-.outerClass{
-    color:
+.outerClass .innerClass {
+    color: violet
 }
+
+.outerClass .innerClass #specialID{
+    color:cyan
+}
+
