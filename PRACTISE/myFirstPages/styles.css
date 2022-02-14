@@ -1,6 +1,7 @@
 body {
 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-margin: 15px
+margin: 15px;
+background-color:rgb(190, 209, 226) 
 }
 
 .firstImage{
@@ -8,7 +9,6 @@ margin: 15px
     height: 300px;
     float: left
 }
-
 
 h1 {
     padding-left: 50px;
@@ -30,4 +30,11 @@ a.button {
 
     text-decoration: none;
     color: initial;
+}
+
+#text-block{
+    border: 5px solid grey;
+    border-radius: 5px 15px 15px 15px;
+    margin: 10px 10px 10px 10px;
+    background-color:rgb(165, 190, 212) 
 }
