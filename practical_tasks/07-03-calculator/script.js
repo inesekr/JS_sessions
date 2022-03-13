@@ -6,7 +6,6 @@ $(document).ready(function () {
     let operator = '';
     let result = '';
     let output = $(".screen").html();
-    // console.log(output);
 
     function calculate() {
 
@@ -19,7 +18,7 @@ $(document).ready(function () {
         }
 
         else if (operator === "*") {
-            result = firstNum * secondNum; //with decimal numbers gives incorrect result - e.g. "0.8*3=2.4000000000000004"
+            result = firstNum * secondNum; //with decimal numbers can give incorrect result - e.g. "0.8*3=2.4000000000000004"
         }
 
         else if (operator === "/") {
